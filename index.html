@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a href="images/logo.svg" class="logo">Snap</a>
+    </div>
+
+    <ul class="nav-links">
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link">Features</a>
+        <div class="dropdown-menu">
+            <img src="images/icon-todo.svg" alt="Todo List"> Todo List
+          </a>
+          <a href="#" class="dropdown-item">
+            <img src="images/icon-calendar.svg" alt="Calendar"> Calendar
+          </a>
+          <a href="#" class="dropdown-item">
+            <img src="images/icon-reminders.svg" alt="Reminder"> Reminder
+          </a>
+          <a href="#" class="dropdown-item">
+            <img src="images/icon-planning.svg" alt="Planning"> Planning
+          </a>
+        </div>
+      </li>
+    </ul>
+    
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link">Company</a>
+        <div class="dropdown-menu">
+          <a href="#">About Us</a>
+          <a href="#">Our Team</a>
+          <a href="#">Contact</a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+    <div class="auth-section">
+      <a href="#" class="auth-link">Login</a>
+      <a href="#" class="auth-link">Register</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="flex-left">
+      <!-- Content on the left side -->
+      <section class="intro-section">
+        <h1 class="work">Make <br> remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+        <a href="#" class="learn-more-btn">Learn more</a>
+        <div class="images">
+          <img src="images/client-audiophile.svg">
+          <img src="images/client-databiz.svg">
+          <img src="images/client-maker.svg">
+          <img src="images/client-meet.svg">
+        </div>
+      </section>
+    </div>
+    <div class="flex-right">
+      <!-- Image on the right side -->
+      <img src="images/image-hero-desktop.png" alt="image-hero-desktop">
+    </div>
+  </div>
+  
+  
+  
+  
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Paul Ndege</a>.
+  </div>
+</body>
+</html>

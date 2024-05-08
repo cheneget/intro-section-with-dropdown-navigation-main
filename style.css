@@ -1,0 +1,152 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Epilogue', sans-serif; /* Applying the specified font family */
+    font-size: 18px; /* Setting the default font size for body copy */
+    line-height: 1.6; /* Ensuring comfortable line height for readability */
+    background-color: hsl(0, 0%, 98%); /* Using the almost white color for background */
+    color: hsl(0, 0%, 8%); /* Using almost black color for text */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand .logo {
+    font-weight: 700; /* Applying the specified font weight for the logo */
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Navigation links styles */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Authentication section styles */
+  .auth-section {
+    margin-left: auto;
+  }
+  
+  .auth-link {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  /* Intro section styles */
+  .intro-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .intro-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .intro-section p {
+    font-size: 18px; /* Applying the specified font size for body copy */
+    color: hsl(0, 0%, 41%); /* Using the medium gray color for text */
+    margin-bottom: 20px;
+  }
+  
+  .learn-more-btn {
+    text-decoration: none;
+    background-color: black;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: white;
+
+  }
+  
+  /* Attribution styles */
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .attribution a {
+    color: ;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between; /* Add this line to justify content */
+  }
+  
+  .flex-left {
+    position: relative; /* Required for positioning .images */
+    margin-right: 20px; /* Adjust as needed for spacing between flex items */
+  }
+  
+  .flex-right {
+    position: relative; /* Required for positioning .images */
+  }
+  
+  .flex-right img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+  }
+  
+  .images {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .images img {
+    margin-right: 10px; /* Adjust as needed for spacing between images */
+  }
+  
+  
+
+  
